@@ -25,6 +25,7 @@ func main() {
 
 	fmt.Println(Charlie) // prints {23 Mr Charles Dickens 55 true}
 
-	// function name needs to start with a capital letter. 
+	// function name needs to start with a capital letter.
+	// https://ednsquare.com/story/public-and-private-packages-functions-in-golang------KgKYKs
 	members.Printnameonly(Charlie)
 }
