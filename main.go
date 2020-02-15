@@ -25,5 +25,6 @@ func main() {
 
 	fmt.Println(Charlie) // prints {23 Mr Charles Dickens 55 true}
 
+	// function name needs to start with a capital letter. 
 	members.Printnameonly(Charlie)
 }
