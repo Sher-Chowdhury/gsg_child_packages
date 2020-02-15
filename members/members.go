@@ -9,6 +9,8 @@ Therefore in this case it is:
 */
 package members
 
+import "fmt"
+
 // Employee - this is employee struct
 type Employee struct {
 	ID        int
@@ -17,4 +19,11 @@ type Employee struct {
 	Lastname  string
 	Age       int
 	Smoker    bool
+}
+
+// Printnameonly - info
+func Printnameonly(membername Employee) {
+
+	fmt.Println(membername.FirstName)
+
 }

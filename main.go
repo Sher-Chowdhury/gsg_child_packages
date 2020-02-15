@@ -24,4 +24,6 @@ func main() {
 	}
 
 	fmt.Println(Charlie) // prints {23 Mr Charles Dickens 55 true}
+
+	members.Printnameonly(Charlie)
 }
